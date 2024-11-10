@@ -1,0 +1,1330 @@
+Using pre-set license
+Built from '6000.0/staging' branch; Version is '6000.0.26f1 (ccb7c73d2c02) revision 13416391'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'en' Physical Memory: 16303 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.26f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker5
+-projectPath
+C:/Users/Chantelle/Documents/Github/breakthrough1/breakthrough
+-logFile
+Logs/AssetImportWorker5.log
+-srvPort
+53177
+-job-worker-count
+7
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+Successfully changed project path to: C:/Users/Chantelle/Documents/Github/breakthrough1/breakthrough
+C:/Users/Chantelle/Documents/Github/breakthrough1/breakthrough
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [5368]  Target information:
+
+Player connection [5368]  * "[IP] 192.168.1.38 [Port] 0 [Flags] 2 [Guid] 3972738640 [EditorId] 3972738640 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-NHADGTT) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [5368] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [5368] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 2.73 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.26f1 (ccb7c73d2c02)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.26f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Chantelle/Documents/Github/breakthrough1/breakthrough/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Radeon RX 570 Series (ID=0x67df)
+    Vendor:   ATI
+    VRAM:     4074 MB
+    Driver:   31.0.12027.9001
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.26f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.26f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56984
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002974 seconds.
+- Loaded All Assemblies, in  0.414 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.331 seconds
+Domain Reload Profiling: 741ms
+	BeginReloadAssembly (134ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (51ms)
+	LoadAllAssembliesAndSetupDomain (175ms)
+		LoadAssemblies (130ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (172ms)
+			TypeCache.Refresh (170ms)
+				TypeCache.ScanAssembly (156ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (331ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (299ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (29ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (7ms)
+			ProcessInitializeOnLoadAttributes (190ms)
+			ProcessInitializeOnLoadMethodAttributes (65ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.167 seconds
+Refreshing native plugins compatible for Editor in 2.19 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.020 seconds
+Domain Reload Profiling: 2181ms
+	BeginReloadAssembly (404ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (666ms)
+		LoadAssemblies (385ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (387ms)
+			TypeCache.Refresh (262ms)
+				TypeCache.ScanAssembly (240ms)
+			BuildScriptInfoCaches (108ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (1021ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (745ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (84ms)
+			ProcessInitializeOnLoadAttributes (531ms)
+			ProcessInitializeOnLoadMethodAttributes (113ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 2.69 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 207 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6532 unused Assets / (4.7 MB). Loaded Objects now: 7317.
+Memory consumption went from 203.4 MB to 198.7 MB.
+Total: 10.696700 ms (FindLiveObjects: 0.854200 ms CreateObjectMapping: 1.281600 ms MarkObjects: 5.528900 ms  DeleteObjects: 3.030600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 10880.944314 seconds.
+  path: Assets/art/ccadori/Vector Forest Scenery/Prefabs/Dinamic/Bush 1 Yellow.prefab
+  artifactKey: Guid(24370435d6d60844c98a8bfb101cb48f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/ccadori/Vector Forest Scenery/Prefabs/Dinamic/Bush 1 Yellow.prefab using Guid(24370435d6d60844c98a8bfb101cb48f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '905b808791c97ba2fb0b3d5db57c8ec2') in 0.2390116 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 88
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Scenes/Portal01.prefab
+  artifactKey: Guid(5285402e808cc784e98ccad5f93f8b7b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Portal01.prefab using Guid(5285402e808cc784e98ccad5f93f8b7b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'be4ff9cc968b8666663fa5a138d1e1b7') in 0.0463751 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/art/Mighty Heroes (Rogue) 2D Fantasy Characters Pack/Rogue/Rogue_wrist_r_05.png
+  artifactKey: Guid(c764210032bc5df46a28cb6e1f3ad991) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/Mighty Heroes (Rogue) 2D Fantasy Characters Pack/Rogue/Rogue_wrist_r_05.png using Guid(c764210032bc5df46a28cb6e1f3ad991) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ecbaf9d48e22b6f95a1f7bf5aa28b581') in 0.0626668 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/art/ccadori/Vector Forest Scenery/Demo/Runtime/com.ccadori.vectorforestscenerydemo.Runtime.asmdef
+  artifactKey: Guid(ad8fb5b7d2165864bba870dc24acf8be) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/ccadori/Vector Forest Scenery/Demo/Runtime/com.ccadori.vectorforestscenerydemo.Runtime.asmdef using Guid(ad8fb5b7d2165864bba870dc24acf8be) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ae67dd00240f3f5546da284a113fd1db') in 0.0119655 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/art/ccadori/Vector Forest Scenery/Prefabs/Dinamic/Stone 2 Brown.prefab
+  artifactKey: Guid(8f408779fa2fd3c4d8c9004362cde3bc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/ccadori/Vector Forest Scenery/Prefabs/Dinamic/Stone 2 Brown.prefab using Guid(8f408779fa2fd3c4d8c9004362cde3bc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0a620f5f7c7f31da94573f3758ed7ddd') in 0.0267684 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 75
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/art/ccadori/Vector Forest Scenery/Prefabs/Dinamic/Tree 2 Yellow.prefab
+  artifactKey: Guid(91a4be5c94020ae4b84281fed4c52716) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/ccadori/Vector Forest Scenery/Prefabs/Dinamic/Tree 2 Yellow.prefab using Guid(91a4be5c94020ae4b84281fed4c52716) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '75967420a8ed40964d532771717633c2') in 0.03954 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 152
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/art/ccadori/Vector Forest Scenery/Prefabs/Dinamic/Tree 4 Green.prefab
+  artifactKey: Guid(36e967ebb583b99418c55ca16f364d8d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/ccadori/Vector Forest Scenery/Prefabs/Dinamic/Tree 4 Green.prefab using Guid(36e967ebb583b99418c55ca16f364d8d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c1d81e0f13b20a0aaf750635eea4bc18') in 0.0252119 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 96
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/art/Mighty Heroes (Rogue) 2D Fantasy Characters Pack/Rogue/Rogue_elbow_l_01.png
+  artifactKey: Guid(48ecbe245379f214497aae538fe1d4f3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/Mighty Heroes (Rogue) 2D Fantasy Characters Pack/Rogue/Rogue_elbow_l_01.png using Guid(48ecbe245379f214497aae538fe1d4f3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dfd6a8e996996a71384d70d243b6b5fe') in 0.0207162 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/art/ccadori/Vector Forest Scenery/Prefabs/Dinamic/Mushroom 3 Blue.prefab
+  artifactKey: Guid(4ec2eab9846ea0549ad5bd9cfa60cba6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/ccadori/Vector Forest Scenery/Prefabs/Dinamic/Mushroom 3 Blue.prefab using Guid(4ec2eab9846ea0549ad5bd9cfa60cba6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fcb2dc42233f8f0e5c2b246cbeb31f98') in 0.0239702 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 70
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/art/ccadori/Vector Forest Scenery/Prefabs/Dinamic/Stone 1 Brown Variant.prefab
+  artifactKey: Guid(c30f8a910fc991c4f8a95e5f5d84e7d5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/ccadori/Vector Forest Scenery/Prefabs/Dinamic/Stone 1 Brown Variant.prefab using Guid(c30f8a910fc991c4f8a95e5f5d84e7d5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '15daa34d9acbc0474bdffda0e86a96cf') in 0.0215392 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 75
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/art/ccadori/Vector Forest Scenery/Demo/Sprites/button-stone-type-2-brown.png
+  artifactKey: Guid(c440ecb107d7c2d4c94d0b1bb0201b30) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/ccadori/Vector Forest Scenery/Demo/Sprites/button-stone-type-2-brown.png using Guid(c440ecb107d7c2d4c94d0b1bb0201b30) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c2a34e9b524474ae92271945b7134003') in 0.0231396 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/art/ccadori/Vector Forest Scenery/Prefabs/Dinamic/Dead Trunk 1.prefab
+  artifactKey: Guid(ec1ee497188e38c499a25e70b93e162c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/ccadori/Vector Forest Scenery/Prefabs/Dinamic/Dead Trunk 1.prefab using Guid(ec1ee497188e38c499a25e70b93e162c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c51695d1c62d616867dd7fdb1b8a1ba1') in 0.021505 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 50
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/art/ccadori/Vector Forest Scenery/Demo/Sprites/button-tree-type-3-green.png
+  artifactKey: Guid(1375c60f71e20f24e8a6d08b740181a6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/ccadori/Vector Forest Scenery/Demo/Sprites/button-tree-type-3-green.png using Guid(1375c60f71e20f24e8a6d08b740181a6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b9ff2e009c505f84e684e9b588e8aced') in 0.021572 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/art/ccadori/Vector Forest Scenery/Prefabs/Dinamic/Bush 1 Green.prefab
+  artifactKey: Guid(03c1c861272e453489452a5ca1b6cee9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/ccadori/Vector Forest Scenery/Prefabs/Dinamic/Bush 1 Green.prefab using Guid(03c1c861272e453489452a5ca1b6cee9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '91d2fafa7eb2a4660e2271f64360d8d4') in 0.0229525 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 62
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/art/ccadori/Vector Forest Scenery/Prefabs/Static/Static Bush Type 3 Green Snow.prefab
+  artifactKey: Guid(42b1dfe0b16e5f14dbf5bf5c48fdd768) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/ccadori/Vector Forest Scenery/Prefabs/Static/Static Bush Type 3 Green Snow.prefab using Guid(42b1dfe0b16e5f14dbf5bf5c48fdd768) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2b64b92f673e88616bd03c0fd20c64b4') in 0.0175476 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/art/ccadori/Vector Forest Scenery/Prefabs/Static/Static Stone Type 3 Yellow.prefab
+  artifactKey: Guid(34484ef104b688c4791aec14e3854d66) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/ccadori/Vector Forest Scenery/Prefabs/Static/Static Stone Type 3 Yellow.prefab using Guid(34484ef104b688c4791aec14e3854d66) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4d2b3cc9d57dc79322ee138b8db4750b') in 0.0174054 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/art/ccadori/Vector Forest Scenery/Prefabs/Static/Static Stone Type 2 Yellow Snow.prefab
+  artifactKey: Guid(923a67d7d9fcaa6439bf7d172bb794a7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/ccadori/Vector Forest Scenery/Prefabs/Static/Static Stone Type 2 Yellow Snow.prefab using Guid(923a67d7d9fcaa6439bf7d172bb794a7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '82a58b8c0be867227565bdace531549b') in 0.0197839 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/art/ccadori/Vector Forest Scenery/Prefabs/Static/Static Bush Type 1 Green.prefab
+  artifactKey: Guid(a8b39e8368ff5e040819629c8eb5ccc7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/ccadori/Vector Forest Scenery/Prefabs/Static/Static Bush Type 1 Green.prefab using Guid(a8b39e8368ff5e040819629c8eb5ccc7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3b922d4fee87cc592365e571468ce85f') in 0.016879 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/art/ccadori/Vector Forest Scenery/Prefabs/Static/Static Stone Type 1 Grey Snow.prefab
+  artifactKey: Guid(fa92a7b58d36eff4f830a15aa8692abb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/ccadori/Vector Forest Scenery/Prefabs/Static/Static Stone Type 1 Grey Snow.prefab using Guid(fa92a7b58d36eff4f830a15aa8692abb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e2e9679b57cfee9139e012da8d7557c4') in 0.0187556 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/art/ccadori/Vector Forest Scenery/Prefabs/Static/Static Stone Type 1 Yellow Snow.prefab
+  artifactKey: Guid(a1b60513b6e4f294483c89ba8686beec) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/ccadori/Vector Forest Scenery/Prefabs/Static/Static Stone Type 1 Yellow Snow.prefab using Guid(a1b60513b6e4f294483c89ba8686beec) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'eb51dfe606565d147ec8c57978a2898b') in 0.0201938 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/art/ccadori/Vector Forest Scenery/Animations/Tree/SnowOn.anim
+  artifactKey: Guid(b0f57fb2921bcf7499e23aa33f320286) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/ccadori/Vector Forest Scenery/Animations/Tree/SnowOn.anim using Guid(b0f57fb2921bcf7499e23aa33f320286) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '309db6d57b603a7c3d752b1115c08307') in 0.0201423 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/art/ccadori/Vector Forest Scenery/Demo/Sprites/button-interaction-ice.png
+  artifactKey: Guid(96871f7139f2e0447a17a2b0dd0a3589) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/ccadori/Vector Forest Scenery/Demo/Sprites/button-interaction-ice.png using Guid(96871f7139f2e0447a17a2b0dd0a3589) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '07e7bb708e107dbaf800b48a83180631') in 0.0223249 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/art/ccadori/Vector Forest Scenery/Prefabs/Static/Static Bush Type 3 Pink.prefab
+  artifactKey: Guid(b16a2f1a8d36f034baba4a7c787c73fd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/ccadori/Vector Forest Scenery/Prefabs/Static/Static Bush Type 3 Pink.prefab using Guid(b16a2f1a8d36f034baba4a7c787c73fd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '937ed156750d7435f5bdbd5090eb5b51') in 0.0206147 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/art/ccadori/Vector Forest Scenery/Prefabs/Static/Static Bush Type 3 Yellow.prefab
+  artifactKey: Guid(5c26fbf3d14085247918ef90334b6f44) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/ccadori/Vector Forest Scenery/Prefabs/Static/Static Bush Type 3 Yellow.prefab using Guid(5c26fbf3d14085247918ef90334b6f44) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '731aaf57fc8683640532249c1ad44367') in 0.0184569 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/art/ccadori/Vector Forest Scenery/Prefabs/Static/Static Tree Type 2 Green Snow.prefab
+  artifactKey: Guid(2ae3bef909406fb4f9200383cf3bf404) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/ccadori/Vector Forest Scenery/Prefabs/Static/Static Tree Type 2 Green Snow.prefab using Guid(2ae3bef909406fb4f9200383cf3bf404) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0e4d77640b5318443fe084a3c5f73884') in 0.0184371 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/art/ccadori/Vector Forest Scenery/Sprites/Static/static-bush-type-1-yellow-snow.png
+  artifactKey: Guid(99b31519a23e6664688c42959fc21a3b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/ccadori/Vector Forest Scenery/Sprites/Static/static-bush-type-1-yellow-snow.png using Guid(99b31519a23e6664688c42959fc21a3b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '974a6c121ae1db81e4b4989b8cc7b371') in 0.0259119 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/art/ccadori/Vector Forest Scenery/Prefabs/Static/Static Tree Type 4 Pink.prefab
+  artifactKey: Guid(55c69d62dce37c34e9676e407e30bc9d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/ccadori/Vector Forest Scenery/Prefabs/Static/Static Tree Type 4 Pink.prefab using Guid(55c69d62dce37c34e9676e407e30bc9d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c274a750cb82b0c1ca3dc92f4a23b373') in 0.0228865 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/art/ccadori/Vector Forest Scenery/Prefabs/Static/Static Tree Type 3 Yellow Snow.prefab
+  artifactKey: Guid(6f8c0aae68e0d584293eb2212fb8d43e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/ccadori/Vector Forest Scenery/Prefabs/Static/Static Tree Type 3 Yellow Snow.prefab using Guid(6f8c0aae68e0d584293eb2212fb8d43e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'daca708f5891647296da774514d9b1ae') in 0.0191747 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/art/ccadori/Vector Forest Scenery/Prefabs/Static/Static Tree Type 1 Pink Snow.prefab
+  artifactKey: Guid(c6575214f435b6246b33f578346cfefe) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/ccadori/Vector Forest Scenery/Prefabs/Static/Static Tree Type 1 Pink Snow.prefab using Guid(c6575214f435b6246b33f578346cfefe) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '75e675c90aa5f3453953b4b182fc68d1') in 0.0172759 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/art/ccadori/Vector Forest Scenery/Prefabs/Static/Static Tree Type 3 Pink.prefab
+  artifactKey: Guid(b6ebb4535f75409448c707cdb7c1e83c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/ccadori/Vector Forest Scenery/Prefabs/Static/Static Tree Type 3 Pink.prefab using Guid(b6ebb4535f75409448c707cdb7c1e83c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e2e3464b5c7db809e2ab2d17f606671b') in 0.0197112 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/art/ccadori/Vector Forest Scenery/Prefabs/Static/Static Tree Type 1 Yellow Snow.prefab
+  artifactKey: Guid(68f881b0036ffe243a61119f26fdf5ea) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/ccadori/Vector Forest Scenery/Prefabs/Static/Static Tree Type 1 Yellow Snow.prefab using Guid(68f881b0036ffe243a61119f26fdf5ea) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '04fbe03be49481c93455d9e0b7a9792e') in 0.0196129 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/art/ccadori/Vector Forest Scenery/Demo/Sprites/button-stone-type-3-yellow.png
+  artifactKey: Guid(002f641a5c6830649a370839ad2f31db) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/ccadori/Vector Forest Scenery/Demo/Sprites/button-stone-type-3-yellow.png using Guid(002f641a5c6830649a370839ad2f31db) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fb3b17e7d72afa550e38132f409a39ba') in 0.0262794 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/art/ccadori/Vector Forest Scenery/Demo/Sprites/button-mushroom-type-1-blue.png
+  artifactKey: Guid(5eace44c9f00b274f806c3914628a81e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/ccadori/Vector Forest Scenery/Demo/Sprites/button-mushroom-type-1-blue.png using Guid(5eace44c9f00b274f806c3914628a81e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bd3e4a7e2257c0a651fe02df7d8c3801') in 0.0208553 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/art/ccadori/Vector Forest Scenery/Sprites/Static/butterfly-blue.png
+  artifactKey: Guid(f8078f2cd2e93484c8a1dd3c359ffe0d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/ccadori/Vector Forest Scenery/Sprites/Static/butterfly-blue.png using Guid(f8078f2cd2e93484c8a1dd3c359ffe0d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '388d87c51241c45d3fcae4603ff24c9f') in 0.0161224 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/art/ccadori/Vector Forest Scenery/Sprites/Static/static-stone-type-1-yellow.png
+  artifactKey: Guid(8aad3c4e91c349a4d8d6691ebaa436fa) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/ccadori/Vector Forest Scenery/Sprites/Static/static-stone-type-1-yellow.png using Guid(8aad3c4e91c349a4d8d6691ebaa436fa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7e23644e4b42ee0c72aced1072931521') in 0.0169222 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/art/ccadori/Vector Forest Scenery/Sprites/Static/static-stone-type-1-grey.png
+  artifactKey: Guid(ef6b528acb23c5b4a867f7360c8432a0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/ccadori/Vector Forest Scenery/Sprites/Static/static-stone-type-1-grey.png using Guid(ef6b528acb23c5b4a867f7360c8432a0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ed3310eef67279e90d2200ecbc4584b3') in 0.0163448 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/art/ccadori/Vector Forest Scenery/Sprites/Static/static-bush-type-3-pink.png
+  artifactKey: Guid(7bc374dcfb1eba54895b3e35354aea89) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/ccadori/Vector Forest Scenery/Sprites/Static/static-bush-type-3-pink.png using Guid(7bc374dcfb1eba54895b3e35354aea89) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8287015ef6cd6e81f625f223c240c344') in 0.0172191 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/art/ccadori/Vector Forest Scenery/Sprites/Static/static-mushroom-type-3-blue.png
+  artifactKey: Guid(049dfb16d276f414d89d3a113c5a7e0f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/ccadori/Vector Forest Scenery/Sprites/Static/static-mushroom-type-3-blue.png using Guid(049dfb16d276f414d89d3a113c5a7e0f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f59f3745d684d8668e67966feb76fd0c') in 0.0165022 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/art/ccadori/Vector Forest Scenery/Sprites/Static/static-tree-type-1-green.png
+  artifactKey: Guid(aa825dd50ac7a08469898c0739fb1a11) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/ccadori/Vector Forest Scenery/Sprites/Static/static-tree-type-1-green.png using Guid(aa825dd50ac7a08469898c0739fb1a11) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0a4217cdcc0eb212ac6db005d001e778') in 0.0181285 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/art/ccadori/Vector Forest Scenery/Sprites/Static/static-mushroom-type-1-blue.png
+  artifactKey: Guid(f7eafde2211789c41b1a08a580f965ac) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/ccadori/Vector Forest Scenery/Sprites/Static/static-mushroom-type-1-blue.png using Guid(f7eafde2211789c41b1a08a580f965ac) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3602bd95b4b636d893f5099aaaa3cb04') in 0.0165381 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/art/ccadori/Vector Forest Scenery/Sprites/Static/static-bush-type-2-green-snow.png
+  artifactKey: Guid(2b7d60e9dbc4a5a45abc890744a3910b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/ccadori/Vector Forest Scenery/Sprites/Static/static-bush-type-2-green-snow.png using Guid(2b7d60e9dbc4a5a45abc890744a3910b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3612c0dd17b03a1cc5cbb02923b5c71b') in 0.0164113 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/art/ccadori/Vector Forest Scenery/Sprites/Static/static-bush-type-3-green-snow.png
+  artifactKey: Guid(e745f14f43d7b0349abcd71de96646c9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/ccadori/Vector Forest Scenery/Sprites/Static/static-bush-type-3-green-snow.png using Guid(e745f14f43d7b0349abcd71de96646c9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1e30e40d20b6b9bbb67ab2f82902412a') in 0.0176091 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/art/ccadori/Vector Forest Scenery/Sprites/Static/static-stone-type-3-grey.png
+  artifactKey: Guid(053e42c42a27cb4449ba814d7d19c6d8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/ccadori/Vector Forest Scenery/Sprites/Static/static-stone-type-3-grey.png using Guid(053e42c42a27cb4449ba814d7d19c6d8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1a2f6159ffc4c6f9516dee75b879246d') in 0.0164315 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/art/ccadori/Vector Forest Scenery/Prefabs/Dinamic/Bush 1 Pink.prefab
+  artifactKey: Guid(19060b72020070f4da30d15fc4d2077f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/ccadori/Vector Forest Scenery/Prefabs/Dinamic/Bush 1 Pink.prefab using Guid(19060b72020070f4da30d15fc4d2077f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'da7c1b6bcf2043a7e568e503a5320d6d') in 0.0260392 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 88
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/art/ccadori/Vector Forest Scenery/Sprites/Static/butterfly-yellow.png
+  artifactKey: Guid(372c523c8d1b6104fb11eb6f5f7f7bb0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/ccadori/Vector Forest Scenery/Sprites/Static/butterfly-yellow.png using Guid(372c523c8d1b6104fb11eb6f5f7f7bb0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8e66f5a4c0e98ffe5f56bde6df2860ef') in 0.0190342 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/art/ccadori/Vector Forest Scenery/Sprites/Static/static-tree-type-2-pink.png
+  artifactKey: Guid(6bc3cf26d92040f43be40d7ae5a2196e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/ccadori/Vector Forest Scenery/Sprites/Static/static-tree-type-2-pink.png using Guid(6bc3cf26d92040f43be40d7ae5a2196e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6eeff15913d19af28452bf4366704313') in 0.0191589 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/art/ccadori/Vector Forest Scenery/Sprites/Static/static-tree-type-1-yellow-snow.png
+  artifactKey: Guid(ed05fc3ed70c0bc44b7d4d1a583a7224) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/ccadori/Vector Forest Scenery/Sprites/Static/static-tree-type-1-yellow-snow.png using Guid(ed05fc3ed70c0bc44b7d4d1a583a7224) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '791424e98e66a59b5a26abf12efa96fd') in 0.0191299 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/art/PotionJunkies/2DGothicDungeon/Prefab/Decorations/Small_Door.prefab
+  artifactKey: Guid(fbfe8e90cceba4d44a0423efa0181f1e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/PotionJunkies/2DGothicDungeon/Prefab/Decorations/Small_Door.prefab using Guid(fbfe8e90cceba4d44a0423efa0181f1e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0be2be412acf9a0c7389399721a2cb08') in 0.0168762 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/art/PotionJunkies/2DGothicDungeon/Prefab/Decorations/skeleton.prefab
+  artifactKey: Guid(eecec663036b6d644b119dae3f505eef) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/PotionJunkies/2DGothicDungeon/Prefab/Decorations/skeleton.prefab using Guid(eecec663036b6d644b119dae3f505eef) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '30987233c825abe8e5463e285acf1e8b') in 0.0172375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/art/ccadori/Vector Forest Scenery/Sprites/Static/static-tree-type-2-yellow-snow.png
+  artifactKey: Guid(6ac57364770b91c4bbb34bef53caf0be) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/ccadori/Vector Forest Scenery/Sprites/Static/static-tree-type-2-yellow-snow.png using Guid(6ac57364770b91c4bbb34bef53caf0be) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2a66ffdab11909d51dfd1c9110c9ed1e') in 0.0202241 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/art/ccadori/Vector Forest Scenery/Sprites/Static/static-tree-type-3-yellow.png
+  artifactKey: Guid(76b625d74ba0c2740b56dd3c37418956) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/ccadori/Vector Forest Scenery/Sprites/Static/static-tree-type-3-yellow.png using Guid(76b625d74ba0c2740b56dd3c37418956) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'beae24049d8f7842ee91c0aec3ec8dd9') in 0.0176705 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/art/ccadori/Vector Forest Scenery/Sprites/Static/static-tree-type-4-green.png
+  artifactKey: Guid(347d28a9f80928049b7cd1a0d0ce0e51) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/ccadori/Vector Forest Scenery/Sprites/Static/static-tree-type-4-green.png using Guid(347d28a9f80928049b7cd1a0d0ce0e51) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6a269c95e4fbbb9198f05d543aa90a74') in 0.0168001 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/art/ccadori/Vector Forest Scenery/Sprites/Static/static-tree-type-1-pink.png
+  artifactKey: Guid(8f22996b5f06b3441b07be22d2f7f8ce) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/ccadori/Vector Forest Scenery/Sprites/Static/static-tree-type-1-pink.png using Guid(8f22996b5f06b3441b07be22d2f7f8ce) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3fd861b50a8c3fa316fde584b75e25f5') in 0.0179654 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/art/PotionJunkies/2DGothicDungeon/Prefab/Decorations/body.prefab
+  artifactKey: Guid(f03d0642d28a5a347ab74fcf49c07a61) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/PotionJunkies/2DGothicDungeon/Prefab/Decorations/body.prefab using Guid(f03d0642d28a5a347ab74fcf49c07a61) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '188a47fc29c4f550a89931c3e0ef49a5') in 0.0167535 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/art/ccadori/Vector Forest Scenery/Sprites/Static/static-tree-type-2-yellow.png
+  artifactKey: Guid(808fe37934d8eb84d948be6012cd0878) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/ccadori/Vector Forest Scenery/Sprites/Static/static-tree-type-2-yellow.png using Guid(808fe37934d8eb84d948be6012cd0878) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '222c956151eb3034491edf6924656aa8') in 0.0158902 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/art/PotionJunkies/2DGothicDungeon/Prefab/Decorations/urn_07.prefab
+  artifactKey: Guid(94e97fd946614bb4c8b8327b29788b68) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/PotionJunkies/2DGothicDungeon/Prefab/Decorations/urn_07.prefab using Guid(94e97fd946614bb4c8b8327b29788b68) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0ba0c79cec63cc57870a81383b0ebab9') in 0.018192 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/art/PotionJunkies/2DGothicDungeon/Prefab/Walls/backwall_archwindow.prefab
+  artifactKey: Guid(61e0723efe70bcb4ba2d574c93451dd2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/PotionJunkies/2DGothicDungeon/Prefab/Walls/backwall_archwindow.prefab using Guid(61e0723efe70bcb4ba2d574c93451dd2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '50537919d0fe9735742ddf4e6960292f') in 0.0181406 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/art/PotionJunkies/2DGothicDungeon/Prefab/Decorations/urn_04.prefab
+  artifactKey: Guid(e6297e119616a444cbf677b9c6caba03) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/PotionJunkies/2DGothicDungeon/Prefab/Decorations/urn_04.prefab using Guid(e6297e119616a444cbf677b9c6caba03) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9270abddb8dbeeff25e4b915f58d3bf3') in 0.0161515 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/art/PotionJunkies/2DGothicDungeon/Prefab/Walls/backwall_catacomb_2_empty.prefab
+  artifactKey: Guid(caaa307696e80a04ca58348fcde7e885) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/PotionJunkies/2DGothicDungeon/Prefab/Walls/backwall_catacomb_2_empty.prefab using Guid(caaa307696e80a04ca58348fcde7e885) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '29004cfc9e8994cad3995c245236dece') in 0.018886 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/art/PotionJunkies/2DGothicDungeon/Prefab/Walls/backwall_catacomb_3_empty.prefab
+  artifactKey: Guid(42829697436fa5c46a87daf00d523a68) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/PotionJunkies/2DGothicDungeon/Prefab/Walls/backwall_catacomb_3_empty.prefab using Guid(42829697436fa5c46a87daf00d523a68) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5bab5190bb4308f984296715b219a652') in 0.0187334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/art/PotionJunkies/2DGothicDungeon/Prefab/Walls/backwall_doorway_door.prefab
+  artifactKey: Guid(1fee58deb1c4a6d408f2d28403640822) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/PotionJunkies/2DGothicDungeon/Prefab/Walls/backwall_doorway_door.prefab using Guid(1fee58deb1c4a6d408f2d28403640822) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f074aaaa2d95b0e4b39d4fca17c293b7') in 0.0158016 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/art/PotionJunkies/2DGothicDungeon/Prefab/Decorations/WoodPillar.prefab
+  artifactKey: Guid(83a7521094a4946458846c1a82e6d245) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/PotionJunkies/2DGothicDungeon/Prefab/Decorations/WoodPillar.prefab using Guid(83a7521094a4946458846c1a82e6d245) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2f85d2a4fd749f64b3fdc325ccda5dad') in 0.0167014 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/art/PotionJunkies/2DGothicDungeon/Prefab/Decorations/tombdoor_med.prefab
+  artifactKey: Guid(4794cd8042a13c24685db8a6eb05ab01) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/PotionJunkies/2DGothicDungeon/Prefab/Decorations/tombdoor_med.prefab using Guid(4794cd8042a13c24685db8a6eb05ab01) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c2b4aba59df5ae9c2b3d94953813a49f') in 0.0171959 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/art/PotionJunkies/2DGothicDungeon/Prefab/Walls/backwall vines.prefab
+  artifactKey: Guid(759361a33b6a8d14f946ff8dc6f0cf15) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/PotionJunkies/2DGothicDungeon/Prefab/Walls/backwall vines.prefab using Guid(759361a33b6a8d14f946ff8dc6f0cf15) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '65bd820b53ee1fa66b08d096dc0220c2') in 0.0172858 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/art/PotionJunkies/2DGothicDungeon/Prefab/Decorations/urn_08.prefab
+  artifactKey: Guid(192b043c0afc1e74bafb130fc8cdba33) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/PotionJunkies/2DGothicDungeon/Prefab/Decorations/urn_08.prefab using Guid(192b043c0afc1e74bafb130fc8cdba33) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '60ebd0cbc20bacb88427618f2979a0ad') in 0.0159052 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/art/PotionJunkies/2DGothicDungeon/Prefab/Decorations/skulls.prefab
+  artifactKey: Guid(f6affebdba0972340ac4c7320f0419a8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/PotionJunkies/2DGothicDungeon/Prefab/Decorations/skulls.prefab using Guid(f6affebdba0972340ac4c7320f0419a8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a0def310fceb5afc1f6576f8c1ec223d') in 0.0122207 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/art/PotionJunkies/2DGothicDungeon/Textures/Decoartions/Plant_1.png
+  artifactKey: Guid(e404c6deeebcda641b9faf7f86e2abf8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/PotionJunkies/2DGothicDungeon/Textures/Decoartions/Plant_1.png using Guid(e404c6deeebcda641b9faf7f86e2abf8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a5bca41fd24de6fd210f0d48ad6620ac') in 0.0197424 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/art/PotionJunkies/2DGothicDungeon/Textures/Decoartions/chandelier.png
+  artifactKey: Guid(474e6053de7b4544f85a46c641606e3a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/PotionJunkies/2DGothicDungeon/Textures/Decoartions/chandelier.png using Guid(474e6053de7b4544f85a46c641606e3a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '37d9cb5dc5ee0c4e925b409af0855f3e') in 0.0192575 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/art/PotionJunkies/2DGothicDungeon/Textures/Decoartions/tombdoor_large.png
+  artifactKey: Guid(5692f501c153f6443b256ec358afc977) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/PotionJunkies/2DGothicDungeon/Textures/Decoartions/tombdoor_large.png using Guid(5692f501c153f6443b256ec358afc977) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c545d7992d4e080c7a3e474b9b0606b2') in 0.015945 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/art/PotionJunkies/2DGothicDungeon/Textures/Decoartions/skulls.png
+  artifactKey: Guid(2f64e7ba4d4491f45adc18cf24f9fafc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/PotionJunkies/2DGothicDungeon/Textures/Decoartions/skulls.png using Guid(2f64e7ba4d4491f45adc18cf24f9fafc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '81c7d98dd72d21f2655b28593c233020') in 0.0208127 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/art/PotionJunkies/2DGothicDungeon/Textures/Decoartions/StonePillar.png
+  artifactKey: Guid(6b33d79a9a81d724a8fc97ffde8a7517) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/PotionJunkies/2DGothicDungeon/Textures/Decoartions/StonePillar.png using Guid(6b33d79a9a81d724a8fc97ffde8a7517) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'be3777144150293e27fb476d03db0585') in 0.0261125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/art/PotionJunkies/2DGothicDungeon/Textures/Decoartions/tombdoor_med.png
+  artifactKey: Guid(a7f783ceb6b8f7f4e94fa52fcbd43dc2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/PotionJunkies/2DGothicDungeon/Textures/Decoartions/tombdoor_med.png using Guid(a7f783ceb6b8f7f4e94fa52fcbd43dc2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5b4baef5e540fb0768df3872d4c019bd') in 0.022504 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/art/PotionJunkies/2DGothicDungeon/Textures/Decoartions/Plant_2.png
+  artifactKey: Guid(89f6d32d64fc325419fc9307d2af8cd9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/PotionJunkies/2DGothicDungeon/Textures/Decoartions/Plant_2.png using Guid(89f6d32d64fc325419fc9307d2af8cd9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8940ab67ab1bc109e92e35cda1df7077') in 0.0174822 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/art/PotionJunkies/2DGothicDungeon/Textures/Decoartions/Big_Door_Stairs.png
+  artifactKey: Guid(f22f0f5ee1838074dac83e5224ec042a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/PotionJunkies/2DGothicDungeon/Textures/Decoartions/Big_Door_Stairs.png using Guid(f22f0f5ee1838074dac83e5224ec042a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0575a79d185da86ea41506743f11c3c3') in 0.0214379 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/art/PotionJunkies/2DGothicDungeon/Textures/Decoartions/GrassPatch_1.png
+  artifactKey: Guid(7ec24cb807f9c654199a69386dec1692) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/PotionJunkies/2DGothicDungeon/Textures/Decoartions/GrassPatch_1.png using Guid(7ec24cb807f9c654199a69386dec1692) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '07b2406989e357b02ccf7136b51ce4cd') in 0.0184558 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/art/PotionJunkies/2DGothicDungeon/Textures/Decoartions/urn_09.png
+  artifactKey: Guid(50088835b09c29e47a0ccfce135c0fe7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/PotionJunkies/2DGothicDungeon/Textures/Decoartions/urn_09.png using Guid(50088835b09c29e47a0ccfce135c0fe7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '24558b80fcd46fa0c14ac3f84c0fd7af') in 0.0183424 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/art/ccadori/Vector Forest Scenery/Sprites/Static/static-bush-type-3-pink-snow.png
+  artifactKey: Guid(26e3c3741520840498868c5c2321b6e6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/ccadori/Vector Forest Scenery/Sprites/Static/static-bush-type-3-pink-snow.png using Guid(26e3c3741520840498868c5c2321b6e6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9a5599d7b65c743eebc9cc45a271cad1') in 0.0192549 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/art/PotionJunkies/2DGothicDungeon/Textures/Walls/FloorTile_Mid2.png
+  artifactKey: Guid(47229aa283b3cd145bd279990ae80333) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/PotionJunkies/2DGothicDungeon/Textures/Walls/FloorTile_Mid2.png using Guid(47229aa283b3cd145bd279990ae80333) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dfc75393cfd347762ff35414fc815cde') in 0.018228 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/art/ccadori/Vector Forest Scenery/Animations/Tree/Type 1/Shake.anim
+  artifactKey: Guid(39ca8e554fff1354f8b81bb5bf8754e6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/ccadori/Vector Forest Scenery/Animations/Tree/Type 1/Shake.anim using Guid(39ca8e554fff1354f8b81bb5bf8754e6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6fc484add1c5d6c87c869b81b4b50678') in 0.0131261 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/art/ccadori/Vector Forest Scenery/Animations/Tree/Type 2/Tree Type 2.overrideController
+  artifactKey: Guid(10120f1f1dc0ca741af8421c799725ab) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/ccadori/Vector Forest Scenery/Animations/Tree/Type 2/Tree Type 2.overrideController using Guid(10120f1f1dc0ca741af8421c799725ab) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '036ae7295d06572b9a878c50ca5b2271') in 0.0203004 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/art/PotionJunkies/2DGothicDungeon/Textures/Walls/backwall -stairs.png
+  artifactKey: Guid(3a87eab03d917c9469d52c5071f0de60) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/PotionJunkies/2DGothicDungeon/Textures/Walls/backwall -stairs.png using Guid(3a87eab03d917c9469d52c5071f0de60) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ede90b2e62772903a6439a310ba61de9') in 0.0171008 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/art/ccadori/Vector Forest Scenery/Animations/Creature/Rabbit/Rabbit Route.anim
+  artifactKey: Guid(9a96bc84b9160ed4098f709bda31de36) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/ccadori/Vector Forest Scenery/Animations/Creature/Rabbit/Rabbit Route.anim using Guid(9a96bc84b9160ed4098f709bda31de36) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fe56ce6a85b349eb4e5d953cf553580b') in 0.0128056 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/art/PotionJunkies/2DGothicDungeon/Textures/Walls/backwall_catacomb_5_empty.png
+  artifactKey: Guid(1c1c89cdd9bc67e4697f7a2034752411) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/PotionJunkies/2DGothicDungeon/Textures/Walls/backwall_catacomb_5_empty.png using Guid(1c1c89cdd9bc67e4697f7a2034752411) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd857775741899f181b60b329182009c7') in 0.0177033 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/art/ccadori/Vector Forest Scenery/Sprites/Dinamic/Bushes/bush-type-2-green-snow.png
+  artifactKey: Guid(33d5f7b0a6ce9ea40ab3094d7909d812) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/ccadori/Vector Forest Scenery/Sprites/Dinamic/Bushes/bush-type-2-green-snow.png using Guid(33d5f7b0a6ce9ea40ab3094d7909d812) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5bb6ee3fbbffc5d245030c07c3955b02') in 0.0160066 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/art/ccadori/Vector Forest Scenery/Animations/Creature/Rabbit/Rabbit.overrideController
+  artifactKey: Guid(2401074443d0306469f4427bef453fc1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/ccadori/Vector Forest Scenery/Animations/Creature/Rabbit/Rabbit.overrideController using Guid(2401074443d0306469f4427bef453fc1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '134a539cd674171dbef07935a0ba73d1') in 0.0130991 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/art/ccadori/Vector Forest Scenery/Sprites/Dinamic/Bushes/bush-type-1-yellow.png
+  artifactKey: Guid(bf95ecc21cf7c2d438772b2babf8355c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/ccadori/Vector Forest Scenery/Sprites/Dinamic/Bushes/bush-type-1-yellow.png using Guid(bf95ecc21cf7c2d438772b2babf8355c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a7a9437775a98500e835266433116a4b') in 0.0179762 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/art/ccadori/Vector Forest Scenery/Prefabs/Dinamic/Butterfly Red Variant.prefab
+  artifactKey: Guid(a16bb52ad9a98034cad993f809e30ee1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/ccadori/Vector Forest Scenery/Prefabs/Dinamic/Butterfly Red Variant.prefab using Guid(a16bb52ad9a98034cad993f809e30ee1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '80cab722afa77495304a8f5ff8c0dad2') in 0.0223192 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 46
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/art/ccadori/Vector Forest Scenery/Sprites/Dinamic/Trees/tree-type-1-green-1.png
+  artifactKey: Guid(50c8f829c27b4fe4e96e5b50e6251db7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/ccadori/Vector Forest Scenery/Sprites/Dinamic/Trees/tree-type-1-green-1.png using Guid(50c8f829c27b4fe4e96e5b50e6251db7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '672c9d60f2c35e80975229913384639b') in 0.0162702 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/art/ccadori/Vector Forest Scenery/Sprites/Dinamic/Creatures/rabbit-brown-head.png
+  artifactKey: Guid(cbd94a99b8b0c864f90a96f6ed23663f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/ccadori/Vector Forest Scenery/Sprites/Dinamic/Creatures/rabbit-brown-head.png using Guid(cbd94a99b8b0c864f90a96f6ed23663f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c5eae3483e52da0f595033cc7865cf5a') in 0.0206495 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/art/ccadori/Vector Forest Scenery/Sprites/Dinamic/Creatures/rabbit-white-head.png
+  artifactKey: Guid(a3f00dd99087b7a49a051f8a082267e3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/ccadori/Vector Forest Scenery/Sprites/Dinamic/Creatures/rabbit-white-head.png using Guid(a3f00dd99087b7a49a051f8a082267e3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7781665270f7d65a6db9ddd2415f1d14') in 0.0163007 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/art/ccadori/Vector Forest Scenery/Sprites/Dinamic/Bushes/bush-type-3-pink-snow.png
+  artifactKey: Guid(c4fd1bc266bdfe34989a581f2edc3ff1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/ccadori/Vector Forest Scenery/Sprites/Dinamic/Bushes/bush-type-3-pink-snow.png using Guid(c4fd1bc266bdfe34989a581f2edc3ff1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a5877b518672a5a4066ec99753a77fe7') in 0.0163499 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/art/ccadori/Vector Forest Scenery/Sprites/Dinamic/Bushes/bush-type-3-pink.png
+  artifactKey: Guid(7caf1a6c1f9233f409b4272bd33f8fe9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/ccadori/Vector Forest Scenery/Sprites/Dinamic/Bushes/bush-type-3-pink.png using Guid(7caf1a6c1f9233f409b4272bd33f8fe9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'be8acc98290e18ecff82b2a81d8013ee') in 0.0186595 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/art/ccadori/Vector Forest Scenery/Sprites/Dinamic/Bushes/bush-type-3-green.png
+  artifactKey: Guid(6758453285e65e64db59ece8c8bc8ccb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/ccadori/Vector Forest Scenery/Sprites/Dinamic/Bushes/bush-type-3-green.png using Guid(6758453285e65e64db59ece8c8bc8ccb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cfc51f56534cfeb840a275203ac49a6f') in 0.0180868 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/art/ccadori/Vector Forest Scenery/Sprites/Dinamic/Creatures/rabbit-white-tail.png
+  artifactKey: Guid(dcf049f7df587b74c9bf8fe9cc148492) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/ccadori/Vector Forest Scenery/Sprites/Dinamic/Creatures/rabbit-white-tail.png using Guid(dcf049f7df587b74c9bf8fe9cc148492) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '54159e47a1f42dc9e56150ee05619f4c') in 0.0191247 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/art/ccadori/Vector Forest Scenery/Sprites/Dinamic/Stones/stone-type-3-grey.png
+  artifactKey: Guid(3a04be3f3676fe24eac18d6a135a2a3a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/ccadori/Vector Forest Scenery/Sprites/Dinamic/Stones/stone-type-3-grey.png using Guid(3a04be3f3676fe24eac18d6a135a2a3a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e77bdcc2a3b4ec9bf05f893e73bcab56') in 0.0156616 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/art/ccadori/Vector Forest Scenery/Sprites/Dinamic/Stones/stone-type-2-yellow.png
+  artifactKey: Guid(791c952ba0a0d934b90940f3e5451ce1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/ccadori/Vector Forest Scenery/Sprites/Dinamic/Stones/stone-type-2-yellow.png using Guid(791c952ba0a0d934b90940f3e5451ce1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '78d9575efeffe662ff7ae2439ee60e84') in 0.0160671 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/art/ccadori/Vector Forest Scenery/Sprites/Dinamic/Stones/stone-type-1-yellow.png
+  artifactKey: Guid(9aa823e6619cd7e4bacbda3be5261e6b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/ccadori/Vector Forest Scenery/Sprites/Dinamic/Stones/stone-type-1-yellow.png using Guid(9aa823e6619cd7e4bacbda3be5261e6b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9acafe6cdc01611676103c8ff25a05c5') in 0.0179441 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/art/ccadori/Vector Forest Scenery/Sprites/Dinamic/Trees/tree-type-2-green-4-snow.png
+  artifactKey: Guid(9e99c12f75aa4f54da6513d35ff2677a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/ccadori/Vector Forest Scenery/Sprites/Dinamic/Trees/tree-type-2-green-4-snow.png using Guid(9e99c12f75aa4f54da6513d35ff2677a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '32bbd3af848ebf7d50ed39d702f7f503') in 0.0158556 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/art/ccadori/Vector Forest Scenery/Sprites/Dinamic/Trees/tree-type-1-pink-4.png
+  artifactKey: Guid(ac9a5633010a4c44a958813451116ed3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/ccadori/Vector Forest Scenery/Sprites/Dinamic/Trees/tree-type-1-pink-4.png using Guid(ac9a5633010a4c44a958813451116ed3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4e353472e8978de3cd220ef13fbcc311') in 0.018293 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/art/ccadori/Vector Forest Scenery/Sprites/Dinamic/Trees/tree-type-2-green-5-snow.png
+  artifactKey: Guid(4a957761363a94c42879fe5e3a6d9ee7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/ccadori/Vector Forest Scenery/Sprites/Dinamic/Trees/tree-type-2-green-5-snow.png using Guid(4a957761363a94c42879fe5e3a6d9ee7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c17429de061e691628a289c7c24cb2fb') in 0.0169485 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/art/ccadori/Vector Forest Scenery/Sprites/Dinamic/Trees/tree-type-1-yellow-2.png
+  artifactKey: Guid(10ced9bc69f8bcc4ebe59c5e35b86ccc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/ccadori/Vector Forest Scenery/Sprites/Dinamic/Trees/tree-type-1-yellow-2.png using Guid(10ced9bc69f8bcc4ebe59c5e35b86ccc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f64f0004618b0bbeae91a4b5e1dc67d1') in 0.015388 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/art/ccadori/Vector Forest Scenery/Sprites/Dinamic/Trees/tree-type-2-green-3-snow.png
+  artifactKey: Guid(b33a97c034488d641b36eba73dbfa8a7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/ccadori/Vector Forest Scenery/Sprites/Dinamic/Trees/tree-type-2-green-3-snow.png using Guid(b33a97c034488d641b36eba73dbfa8a7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '50d417346a5f155583488393d32d0efc') in 0.0177602 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/art/ccadori/Vector Forest Scenery/Sprites/Dinamic/Trees/tree-type-1-yellow-4.png
+  artifactKey: Guid(4567a73fc1ba6984eabc5ba9d3d35a6f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/ccadori/Vector Forest Scenery/Sprites/Dinamic/Trees/tree-type-1-yellow-4.png using Guid(4567a73fc1ba6984eabc5ba9d3d35a6f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0af5d9129f6a9a86a0e02bc4bf0c2869') in 0.0154364 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/art/ccadori/Vector Forest Scenery/Sprites/Dinamic/Trees/tree-type-1-pink-5.png
+  artifactKey: Guid(c9e512b752da3f249ac0d7dafdc3ff5e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/ccadori/Vector Forest Scenery/Sprites/Dinamic/Trees/tree-type-1-pink-5.png using Guid(c9e512b752da3f249ac0d7dafdc3ff5e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '01e6c2603a0856aa17d7719178af6272') in 0.0157599 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/art/ccadori/Vector Forest Scenery/Sprites/Dinamic/Trees/tree-type-1-green-4-snow.png
+  artifactKey: Guid(2372994e54f6ab742bd79ce9e7b6b75b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/ccadori/Vector Forest Scenery/Sprites/Dinamic/Trees/tree-type-1-green-4-snow.png using Guid(2372994e54f6ab742bd79ce9e7b6b75b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3c2f1f240f220346ebd7c9c75f17925c') in 0.0218642 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/art/ccadori/Vector Forest Scenery/Sprites/Dinamic/Trees/tree-type-2-green-5.png
+  artifactKey: Guid(5444c341f66071848987821bb1f9eb1b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/ccadori/Vector Forest Scenery/Sprites/Dinamic/Trees/tree-type-2-green-5.png using Guid(5444c341f66071848987821bb1f9eb1b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ecb30470fb9f13c621d5df61e06166dc') in 0.0150709 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/art/ccadori/Vector Forest Scenery/Sprites/Dinamic/Trees/tree-type-1-pink-3-snow.png
+  artifactKey: Guid(6df3f572c42486546aed178b74837e74) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/ccadori/Vector Forest Scenery/Sprites/Dinamic/Trees/tree-type-1-pink-3-snow.png using Guid(6df3f572c42486546aed178b74837e74) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7ae3175a6f6451396900e6f73606e382') in 0.0191133 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/art/ccadori/Vector Forest Scenery/Prefabs/Static/Static Stone Type 3 Grey.prefab
+  artifactKey: Guid(f1f18b8adcdaa9d42bdb541f120226e6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/ccadori/Vector Forest Scenery/Prefabs/Static/Static Stone Type 3 Grey.prefab using Guid(f1f18b8adcdaa9d42bdb541f120226e6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0e600295e35baaa4ece0abbbaecb2b8a') in 0.0191458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/art/ccadori/Vector Forest Scenery/Sprites/Dinamic/Trees/tree-type-3-green-5.png
+  artifactKey: Guid(91bcf09a75d06564382bc52f5738e62d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/ccadori/Vector Forest Scenery/Sprites/Dinamic/Trees/tree-type-3-green-5.png using Guid(91bcf09a75d06564382bc52f5738e62d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2ec1e245fc0adb3b15101a6f8328b229') in 0.0176179 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/art/ccadori/Vector Forest Scenery/Sprites/Dinamic/Trees/tree-type-3-pink-3-snow.png
+  artifactKey: Guid(38baf99278a0006478cfc36130b67bfd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/ccadori/Vector Forest Scenery/Sprites/Dinamic/Trees/tree-type-3-pink-3-snow.png using Guid(38baf99278a0006478cfc36130b67bfd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c059cd7d557d8579b7de8531aa24ecda') in 0.0180807 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/art/ccadori/Vector Forest Scenery/Sprites/Dinamic/Trees/tree-type-3-yellow-4.png
+  artifactKey: Guid(3ddea9458b3a7bc45b8bdf2a3219c79c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/ccadori/Vector Forest Scenery/Sprites/Dinamic/Trees/tree-type-3-yellow-4.png using Guid(3ddea9458b3a7bc45b8bdf2a3219c79c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '24fea77ff31ab9c432de216f49f769d5') in 0.015812 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/art/ccadori/Vector Forest Scenery/Sprites/Dinamic/Trees/tree-type-4-green-5-snow.png
+  artifactKey: Guid(7e6469e60d4673b48af9d3e8a32c02cf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/ccadori/Vector Forest Scenery/Sprites/Dinamic/Trees/tree-type-4-green-5-snow.png using Guid(7e6469e60d4673b48af9d3e8a32c02cf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b6155a446d8a7493c751c2c9a23f78dd') in 0.0193795 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/art/ccadori/Vector Forest Scenery/Sprites/Dinamic/Trees/tree-type-4-green-3-snow.png
+  artifactKey: Guid(6a19fee4a89f1cf40b14cd84465fb325) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/ccadori/Vector Forest Scenery/Sprites/Dinamic/Trees/tree-type-4-green-3-snow.png using Guid(6a19fee4a89f1cf40b14cd84465fb325) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bcafbee96f4c71d19fba0bf20fd20268') in 0.0187703 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/art/ccadori/Vector Forest Scenery/Sprites/Dinamic/Trees/tree-type-3-green-3.png
+  artifactKey: Guid(72c7a4e214d50ad4e87b9d63ec3fec39) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/ccadori/Vector Forest Scenery/Sprites/Dinamic/Trees/tree-type-3-green-3.png using Guid(72c7a4e214d50ad4e87b9d63ec3fec39) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8667dac2a9ef8fe28027bd5404ac42f5') in 0.0161006 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/art/ccadori/Vector Forest Scenery/Sprites/Dinamic/Trees/tree-type-4-green-4-snow.png
+  artifactKey: Guid(5ed01e66c939aad43b9edb73667af6a2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/ccadori/Vector Forest Scenery/Sprites/Dinamic/Trees/tree-type-4-green-4-snow.png using Guid(5ed01e66c939aad43b9edb73667af6a2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '42f2ad72f1321f6d37dc3ce65cbf0237') in 0.0187277 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/art/ccadori/Vector Forest Scenery/Sprites/Dinamic/Trees/tree-type-4-green-4.png
+  artifactKey: Guid(faa09ad8bb8b9034587b257fd665cb60) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/ccadori/Vector Forest Scenery/Sprites/Dinamic/Trees/tree-type-4-green-4.png using Guid(faa09ad8bb8b9034587b257fd665cb60) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bd48f1000f0dd70e3c7eb20d9927e2d9') in 0.0256849 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/art/ccadori/Vector Forest Scenery/Sprites/Dinamic/Trees/tree-type-3-yellow-1.png
+  artifactKey: Guid(ab1507798a2057548a5ff62b4d88bfec) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/ccadori/Vector Forest Scenery/Sprites/Dinamic/Trees/tree-type-3-yellow-1.png using Guid(ab1507798a2057548a5ff62b4d88bfec) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5c2f437ae0fd3f2bb91580c4377f8ad6') in 0.0248952 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/art/ccadori/Vector Forest Scenery/Sprites/Dinamic/Trees/tree-type-3-pink-1.png
+  artifactKey: Guid(3e913168e826d03419b6a2f60a3dd0e7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/ccadori/Vector Forest Scenery/Sprites/Dinamic/Trees/tree-type-3-pink-1.png using Guid(3e913168e826d03419b6a2f60a3dd0e7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'aa1da23f5ea48269021a9dedfad0bab5') in 0.0242683 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/art/ccadori/Vector Forest Scenery/Sprites/Dinamic/Trees/tree-type-4-yellow-2.png
+  artifactKey: Guid(7575d98541d75fd4d83ff5a47e47731f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/ccadori/Vector Forest Scenery/Sprites/Dinamic/Trees/tree-type-4-yellow-2.png using Guid(7575d98541d75fd4d83ff5a47e47731f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6fec9b423c7d0219859a5a9af1d318cb') in 0.0166863 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/art/ccadori/Vector Forest Scenery/Sprites/Dinamic/Trees/tree-type-4-pink-4.png
+  artifactKey: Guid(f751e23664113e0469eeeb599c81bbe2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/ccadori/Vector Forest Scenery/Sprites/Dinamic/Trees/tree-type-4-pink-4.png using Guid(f751e23664113e0469eeeb599c81bbe2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fa326a6b2a43a5252e6f3405a0b0279a') in 0.0165222 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/art/ccadori/Vector Forest Scenery/Sprites/Dinamic/Trees/tree-type-4-pink-3.png
+  artifactKey: Guid(c9ea39dd3a6a21d4ba06d060db7ea63b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/ccadori/Vector Forest Scenery/Sprites/Dinamic/Trees/tree-type-4-pink-3.png using Guid(c9ea39dd3a6a21d4ba06d060db7ea63b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ea01bd162741604022d5bf5ca60f7681') in 0.0182822 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/art/ccadori/Vector Forest Scenery/Sprites/Dinamic/Trees/tree-type-4-yellow-5-snow.png
+  artifactKey: Guid(76777ad458d34d24d8911abef7a30d2d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/ccadori/Vector Forest Scenery/Sprites/Dinamic/Trees/tree-type-4-yellow-5-snow.png using Guid(76777ad458d34d24d8911abef7a30d2d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '058ec7e035c5af854c479510d41f1723') in 0.0167714 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/art/ccadori/Vector Forest Scenery/Sprites/Static/static-stone-type-1-grey-snow.png
+  artifactKey: Guid(53075a1ccfc109b409decc19075318bf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/ccadori/Vector Forest Scenery/Sprites/Static/static-stone-type-1-grey-snow.png using Guid(53075a1ccfc109b409decc19075318bf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4603bcbf2a14217cb244aa244647872b') in 0.0230052 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/art/ccadori/Vector Forest Scenery/Prefabs/Static/Static Bush Type 2 Yellow Snow.prefab
+  artifactKey: Guid(ce21a0e2e9f8d994aacf69fa3c9f460d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/ccadori/Vector Forest Scenery/Prefabs/Static/Static Bush Type 2 Yellow Snow.prefab using Guid(ce21a0e2e9f8d994aacf69fa3c9f460d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cc99b681e7bf0308efabe1ebc55c06ac') in 0.0189336 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/art/ccadori/Vector Forest Scenery/Sprites/Dinamic/Creatures/rabbit-white-back-leg.png
+  artifactKey: Guid(4cfb8020e8bb49647afb62673b018e18) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/ccadori/Vector Forest Scenery/Sprites/Dinamic/Creatures/rabbit-white-back-leg.png using Guid(4cfb8020e8bb49647afb62673b018e18) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '71cdc3b0e66af115a94163b2caeb1d19') in 0.0169604 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/art/ccadori/Vector Forest Scenery/Sprites/Static/static-tree-type-3-pink-snow.png
+  artifactKey: Guid(079a3844f759b5f46a429e82cdaf02ab) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/ccadori/Vector Forest Scenery/Sprites/Static/static-tree-type-3-pink-snow.png using Guid(079a3844f759b5f46a429e82cdaf02ab) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1f7df9ca940e1ccdabd8484519ba7b73') in 0.0200841 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/art/ccadori/Vector Forest Scenery/Sprites/Static/static-stone-type-3-yellow.png
+  artifactKey: Guid(84e7f6e822f23e7499e9b277b67e414f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/ccadori/Vector Forest Scenery/Sprites/Static/static-stone-type-3-yellow.png using Guid(84e7f6e822f23e7499e9b277b67e414f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8d730d7712d44f9b007766461cbceca6') in 0.0175839 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/art/ccadori/Vector Forest Scenery/Sprites/Static/static-tree-type-4-pink-snow.png
+  artifactKey: Guid(4d66bf0268e2fe64faaa6218750cf614) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/ccadori/Vector Forest Scenery/Sprites/Static/static-tree-type-4-pink-snow.png using Guid(4d66bf0268e2fe64faaa6218750cf614) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '43810dbb38fdb257b93e4194fc70db35') in 0.0184076 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/art/ccadori/Vector Forest Scenery/Prefabs/Static/Static Bush Type 2 Green Snow.prefab
+  artifactKey: Guid(6788bc65dbe6ef2408735f9288511638) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/ccadori/Vector Forest Scenery/Prefabs/Static/Static Bush Type 2 Green Snow.prefab using Guid(6788bc65dbe6ef2408735f9288511638) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'eda5f898f17651df16aeb5edbd2e5acd') in 0.0183537 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/art/Mighty Heroes (Rogue) 2D Fantasy Characters Pack/Rogue/Rogue_leg_l_01.png
+  artifactKey: Guid(40e550cd3b539f14eb98d42b6769b592) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/Mighty Heroes (Rogue) 2D Fantasy Characters Pack/Rogue/Rogue_leg_l_01.png using Guid(40e550cd3b539f14eb98d42b6769b592) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b3d5b4bf19bacc0687118c14ffa01977') in 0.0170104 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/art/ccadori/Vector Forest Scenery/Prefabs/Static/Static Bush Type 3 Yellow Snow.prefab
+  artifactKey: Guid(b1ec6a1a478291d409bd94c17cfb51c5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/ccadori/Vector Forest Scenery/Prefabs/Static/Static Bush Type 3 Yellow Snow.prefab using Guid(b1ec6a1a478291d409bd94c17cfb51c5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5faec9349e44fcfe125cf5c83cccb112') in 0.0205769 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/art/ccadori/Vector Forest Scenery/Sprites/Dinamic/Bushes/bush-type-1-pink-snow.png
+  artifactKey: Guid(c02feaf091be42d48b570dea4b8015b4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/ccadori/Vector Forest Scenery/Sprites/Dinamic/Bushes/bush-type-1-pink-snow.png using Guid(c02feaf091be42d48b570dea4b8015b4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '72acc7ccdadb0f74c389f80de1ef6077') in 0.016198 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Scripts/DialogueManager.cs
+  artifactKey: Guid(ccc2f16c2638e3746abab3ec6118a28d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/DialogueManager.cs using Guid(ccc2f16c2638e3746abab3ec6118a28d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6876dc73b983a3cfbe0a359aa764fca8') in 0.0100647 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/art/ccadori/Vector Forest Scenery/Sprites/Dinamic/Stones/stone-type-3-brown.png
+  artifactKey: Guid(61f148bf5f531754689ffa3e85867c72) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/ccadori/Vector Forest Scenery/Sprites/Dinamic/Stones/stone-type-3-brown.png using Guid(61f148bf5f531754689ffa3e85867c72) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b45851c49cb3daa0afd997b7889f833c') in 0.0153802 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/art/Mighty Heroes (Rogue) 2D Fantasy Characters Pack/Rogue/Rogue_shoulder_r_02.png
+  artifactKey: Guid(a471110b5fe3bcc4caff7ad9ff13d244) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/Mighty Heroes (Rogue) 2D Fantasy Characters Pack/Rogue/Rogue_shoulder_r_02.png using Guid(a471110b5fe3bcc4caff7ad9ff13d244) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dd14d3fe63a2308113d93daac94e0d1a') in 0.0179484 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/art/ccadori/Vector Forest Scenery/Demo/Sprites/button-mushroom-type-2-red.png
+  artifactKey: Guid(5ccc8d7f9002d70468b3e7ad4261c957) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/ccadori/Vector Forest Scenery/Demo/Sprites/button-mushroom-type-2-red.png using Guid(5ccc8d7f9002d70468b3e7ad4261c957) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b7315243001f371279e1032b1c1aad56') in 0.0205595 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/art/PotionJunkies/2DGothicDungeon/Textures/Walls/backwall_catacomb_4_empty.png
+  artifactKey: Guid(3fcbc52de18de2a42907d3b47c5e6e3f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/PotionJunkies/2DGothicDungeon/Textures/Walls/backwall_catacomb_4_empty.png using Guid(3fcbc52de18de2a42907d3b47c5e6e3f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fdfba001b2fe7b3c76143409211129ff') in 0.0166886 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.843 seconds
+Refreshing native plugins compatible for Editor in 1.72 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.128 seconds
+Domain Reload Profiling: 1967ms
+	BeginReloadAssembly (233ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (20ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (69ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (529ms)
+		LoadAssemblies (380ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (248ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (224ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (1128ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (811ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (81ms)
+			ProcessInitializeOnLoadAttributes (644ms)
+			ProcessInitializeOnLoadMethodAttributes (71ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 2.32 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6530 unused Assets / (5.1 MB). Loaded Objects now: 7322.
+Memory consumption went from 172.7 MB to 167.6 MB.
+Total: 10.574000 ms (FindLiveObjects: 0.851000 ms CreateObjectMapping: 1.133900 ms MarkObjects: 5.314800 ms  DeleteObjects: 3.273500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
