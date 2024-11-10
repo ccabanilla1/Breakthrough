@@ -15,7 +15,7 @@ C:/Users/Chantelle/Documents/Github/breakthrough/breakthrough
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-52276
+53762
 -job-worker-count
 7
 -background-job-worker-count
@@ -59,12 +59,12 @@ C:/Users/Chantelle/Documents/Github/breakthrough/breakthrough
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [376]  Target information:
+Player connection [14924]  Target information:
 
-Player connection [376]  * "[IP] 192.168.1.38 [Port] 0 [Flags] 2 [Guid] 1782363103 [EditorId] 1782363103 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-NHADGTT) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [14924]  * "[IP] 192.168.1.38 [Port] 0 [Flags] 2 [Guid] 2524019776 [EditorId] 2524019776 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-NHADGTT) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [376] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [376] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [14924] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [14924] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 7
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -75,7 +75,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 3.16 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 2.62 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.26f1 (ccb7c73d2c02)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.26f1/Editor/Data/Resources/UnitySubsystems
@@ -92,43 +92,43 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.26f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.26f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56160
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56320
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003692 seconds.
-- Loaded All Assemblies, in  0.448 seconds
+Registered in 0.003078 seconds.
+- Loaded All Assemblies, in  0.398 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.376 seconds
-Domain Reload Profiling: 822ms
-	BeginReloadAssembly (142ms)
+- Finished resetting the current domain, in  0.339 seconds
+Domain Reload Profiling: 734ms
+	BeginReloadAssembly (136ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (43ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (53ms)
-	LoadAllAssembliesAndSetupDomain (194ms)
-		LoadAssemblies (138ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (159ms)
+		LoadAssemblies (133ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (191ms)
-			TypeCache.Refresh (189ms)
-				TypeCache.ScanAssembly (174ms)
+		AnalyzeDomain (156ms)
+			TypeCache.Refresh (155ms)
+				TypeCache.ScanAssembly (141ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (377ms)
+	FinalizeReload (339ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (330ms)
+		SetupLoadedEditorAssemblies (293ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (27ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (7ms)
-			ProcessInitializeOnLoadAttributes (184ms)
-			ProcessInitializeOnLoadMethodAttributes (104ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (6ms)
+			ProcessInitializeOnLoadAttributes (185ms)
+			ProcessInitializeOnLoadMethodAttributes (68ms)
 			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -137,117 +137,321 @@ Domain Reload Profiling: 822ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.382 seconds
-Refreshing native plugins compatible for Editor in 2.81 ms, found 4 plugins.
+- Loaded All Assemblies, in  1.143 seconds
+Refreshing native plugins compatible for Editor in 2.04 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.121 seconds
-Domain Reload Profiling: 2496ms
-	BeginReloadAssembly (484ms)
+- Finished resetting the current domain, in  0.967 seconds
+Domain Reload Profiling: 2104ms
+	BeginReloadAssembly (400ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (31ms)
-	RebuildCommonClasses (40ms)
+	RebuildCommonClasses (41ms)
 	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (42ms)
-	LoadAllAssembliesAndSetupDomain (795ms)
-		LoadAssemblies (489ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (638ms)
+		LoadAssemblies (425ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (434ms)
-			TypeCache.Refresh (291ms)
-				TypeCache.ScanAssembly (259ms)
-			BuildScriptInfoCaches (127ms)
-			ResolveRequiredComponents (12ms)
-	FinalizeReload (1121ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (799ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (89ms)
-			ProcessInitializeOnLoadAttributes (567ms)
-			ProcessInitializeOnLoadMethodAttributes (127ms)
-			AfterProcessingInitializeOnLoad (9ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 1.98 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 206 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6513 unused Assets / (5.1 MB). Loaded Objects now: 7294.
-Memory consumption went from 202.3 MB to 197.3 MB.
-Total: 11.911300 ms (FindLiveObjects: 1.130500 ms CreateObjectMapping: 1.813000 ms MarkObjects: 5.719300 ms  DeleteObjects: 3.246800 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 5286.613145 seconds.
-  path: Assets/UniversalRenderPipelineGlobalSettings.asset
-  artifactKey: Guid(93b439a37f63240aca3dd4e01d978a9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UniversalRenderPipelineGlobalSettings.asset using Guid(93b439a37f63240aca3dd4e01d978a9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a2dce915d45f31430f8bdd657da3ac60') in 0.0207266 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.847 seconds
-Refreshing native plugins compatible for Editor in 1.82 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.988 seconds
-Domain Reload Profiling: 1832ms
-	BeginReloadAssembly (239ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (15ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (59ms)
-	RebuildCommonClasses (37ms)
-	RebuildNativeTypeToScriptingClass (22ms)
-	initialDomainReloadingComplete (31ms)
-	LoadAllAssembliesAndSetupDomain (514ms)
-		LoadAssemblies (379ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (245ms)
-			TypeCache.Refresh (11ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (219ms)
+		AnalyzeDomain (321ms)
+			TypeCache.Refresh (214ms)
+				TypeCache.ScanAssembly (194ms)
+			BuildScriptInfoCaches (93ms)
 			ResolveRequiredComponents (11ms)
-	FinalizeReload (988ms)
+	FinalizeReload (968ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (689ms)
+		SetupLoadedEditorAssemblies (714ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (2ms)
 			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (76ms)
-			ProcessInitializeOnLoadAttributes (533ms)
-			ProcessInitializeOnLoadMethodAttributes (65ms)
+			BeforeProcessingInitializeOnLoad (77ms)
+			ProcessInitializeOnLoadAttributes (509ms)
+			ProcessInitializeOnLoadMethodAttributes (114ms)
 			AfterProcessingInitializeOnLoad (9ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (11ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
 Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 1.79 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 2.65 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6520 unused Assets / (4.5 MB). Loaded Objects now: 7309.
-Memory consumption went from 171.9 MB to 167.4 MB.
-Total: 8.494000 ms (FindLiveObjects: 0.749300 ms CreateObjectMapping: 1.061800 ms MarkObjects: 4.571200 ms  DeleteObjects: 2.110700 ms)
+Unloading 206 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6525 unused Assets / (4.7 MB). Loaded Objects now: 7307.
+Memory consumption went from 200.9 MB to 196.2 MB.
+Total: 10.744600 ms (FindLiveObjects: 0.860000 ms CreateObjectMapping: 1.389900 ms MarkObjects: 5.449000 ms  DeleteObjects: 3.044800 ms)
 
-Prepare: number of updated asset objects reloaded= 0
 ========================================================================
-Received Prepare
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 1.84 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6512 unused Assets / (4.4 MB). Loaded Objects now: 7312.
-Memory consumption went from 172.1 MB to 167.6 MB.
-Total: 8.761700 ms (FindLiveObjects: 0.827700 ms CreateObjectMapping: 1.215400 ms MarkObjects: 4.554700 ms  DeleteObjects: 2.163000 ms)
+Received Import Request.
+  Time since last request: 10259.463204 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(4674da41f192d824ca3c30d6f3f8aa14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(4674da41f192d824ca3c30d6f3f8aa14) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '580b800b4c45df802dcbe92acfcdb470') in 0.0046262 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
-Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4356a4e0efafe2da4e825d4a5b22b180') in 0.0005549 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.171441 seconds.
+  path: Assets/fbxdungeonassetpack/individuals files
+  artifactKey: Guid(349ba525b8e9c39418760248556a5802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/fbxdungeonassetpack/individuals files using Guid(349ba525b8e9c39418760248556a5802) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c895f81b9100ef99477527f8b6e036d2') in 0.0005263 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.916073 seconds.
+  path: Assets/fbxdungeonassetpack/individuals files/barrel.fbx
+  artifactKey: Guid(e25859911a8779c4db018c6eaeb57432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/fbxdungeonassetpack/individuals files/barrel.fbx using Guid(e25859911a8779c4db018c6eaeb57432) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6f440342278e86e53fab2292cb11fc33') in 0.7371435 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/fbxdungeonassetpack/individuals files/woodchair.fbx
+  artifactKey: Guid(1169dfa6bcc9e8f479c7e29d7808666e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/fbxdungeonassetpack/individuals files/woodchair.fbx using Guid(1169dfa6bcc9e8f479c7e29d7808666e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5eac383022129980cd1fb0fdec531cdb') in 0.0266003 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/fbxdungeonassetpack/individuals files/cage.fbx
+  artifactKey: Guid(1ef90660c3e792a46ae5909d427d7b84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/fbxdungeonassetpack/individuals files/cage.fbx using Guid(1ef90660c3e792a46ae5909d427d7b84) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '22bbcc753281141d119b0a5284650ccc') in 0.0193027 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/fbxdungeonassetpack/individuals files/beam_002.fbx
+  artifactKey: Guid(27c887d63bb944b44ba63a71f343b5db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/fbxdungeonassetpack/individuals files/beam_002.fbx using Guid(27c887d63bb944b44ba63a71f343b5db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '02746458b6961c1d4fb3add5565116ce') in 0.0296685 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/fbxdungeonassetpack/individuals files/gems_003.fbx
+  artifactKey: Guid(38a82d878fd349540a032f07d670becc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/fbxdungeonassetpack/individuals files/gems_003.fbx using Guid(38a82d878fd349540a032f07d670becc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8299f4fd620ab62db7dbf0f49a58aa16') in 0.0231636 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/fbxdungeonassetpack/individuals files/woodbox.fbx
+  artifactKey: Guid(e671dac348dd3b049b292ab0a1b3a83d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/fbxdungeonassetpack/individuals files/woodbox.fbx using Guid(e671dac348dd3b049b292ab0a1b3a83d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c52531fbc2a5f883bc0e7940ced96963') in 0.0297228 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/fbxdungeonassetpack/individuals files/floor.fbx
+  artifactKey: Guid(2070cc51d53f3c84fbc07fbf8022acf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/fbxdungeonassetpack/individuals files/floor.fbx using Guid(2070cc51d53f3c84fbc07fbf8022acf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e70f19037997d5f275d8a8d699c9dad2') in 0.0276237 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/fbxdungeonassetpack/individuals files/rampflat.fbx
+  artifactKey: Guid(31c5e29425bea0444b2da6553ea0ecd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/fbxdungeonassetpack/individuals files/rampflat.fbx using Guid(31c5e29425bea0444b2da6553ea0ecd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '26903471e31f4f091725535333e606f2') in 0.0283955 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/fbxdungeonassetpack/individuals files/woodbox_003.fbx
+  artifactKey: Guid(a69fb26a8b00fe240977d5ad709745a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/fbxdungeonassetpack/individuals files/woodbox_003.fbx using Guid(a69fb26a8b00fe240977d5ad709745a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '86e177691382014693434b15a208b474') in 0.0268299 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/fbxdungeonassetpack/individuals files/wallslittle_001.fbx
+  artifactKey: Guid(01bbcef8bfee05c40a6f27b95d1bc4b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/fbxdungeonassetpack/individuals files/wallslittle_001.fbx using Guid(01bbcef8bfee05c40a6f27b95d1bc4b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e5653dc5994c38a1623e4e1d1120075a') in 0.0292746 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/fbxdungeonassetpack/individuals files/woodtable.fbx
+  artifactKey: Guid(ab3cd722fdf9fe544aa3006c3987117a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/fbxdungeonassetpack/individuals files/woodtable.fbx using Guid(ab3cd722fdf9fe544aa3006c3987117a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4f1055974ad72f288aeae7b10424ec0b') in 0.0213784 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/fbxdungeonassetpack/individuals files/gems_008.fbx
+  artifactKey: Guid(05e0c9023926c7d46ac058ca9320114a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/fbxdungeonassetpack/individuals files/gems_008.fbx using Guid(05e0c9023926c7d46ac058ca9320114a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8ca8b687ee2da6ede48dff4813e8c847') in 0.0187542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/fbxdungeonassetpack/individuals files/walls_008.fbx
+  artifactKey: Guid(13ab6d125238c2949a1b4dbc348eff09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/fbxdungeonassetpack/individuals files/walls_008.fbx using Guid(13ab6d125238c2949a1b4dbc348eff09) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bf99af6370a32ca4e5f388add61c62d4') in 0.0426279 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/fbxdungeonassetpack/individuals files/walls_011.fbx
+  artifactKey: Guid(f58d0826e5a875646bb58b7afdcc61c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/fbxdungeonassetpack/individuals files/walls_011.fbx using Guid(f58d0826e5a875646bb58b7afdcc61c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '584fbc25df5e67eef7dbb0c52a08b171') in 0.0179805 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/fbxdungeonassetpack/individuals files/walls_005.fbx
+  artifactKey: Guid(a2a13b13ccb0ba64f90633274c72bbd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/fbxdungeonassetpack/individuals files/walls_005.fbx using Guid(a2a13b13ccb0ba64f90633274c72bbd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c85b4a3370faa57b1a7acae25f475add') in 0.0345297 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/fbxdungeonassetpack/individuals files/potion.fbx
+  artifactKey: Guid(ad7ea35001eedb443a6baedc8a2dc09c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/fbxdungeonassetpack/individuals files/potion.fbx using Guid(ad7ea35001eedb443a6baedc8a2dc09c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7cfe3431b75b858ea162f13f1553c743') in 0.0223123 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/fbxdungeonassetpack/individuals files/floor_004.fbx
+  artifactKey: Guid(7eacde177c5272848ba445b59157e303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/fbxdungeonassetpack/individuals files/floor_004.fbx using Guid(7eacde177c5272848ba445b59157e303) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '50c3c8a753c246a0d5f74a5b31067312') in 0.0181075 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/fbxdungeonassetpack/individuals files/stonebed.fbx
+  artifactKey: Guid(282c710a59898f449abeb0ab0f3cb3aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/fbxdungeonassetpack/individuals files/stonebed.fbx using Guid(282c710a59898f449abeb0ab0f3cb3aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c74acfcc1be18d7b548e679a391b61f4') in 0.0254013 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/fbxdungeonassetpack/individuals files/floor_001.fbx
+  artifactKey: Guid(ff7a3f568b584ed4b994342af89dddda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/fbxdungeonassetpack/individuals files/floor_001.fbx using Guid(ff7a3f568b584ed4b994342af89dddda) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '737c42192ae7aeba4ca053d86baea37d') in 0.0263816 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/fbxdungeonassetpack/individuals files/walls_004.fbx
+  artifactKey: Guid(394aa58cfa57ed943a1c12998abf18de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/fbxdungeonassetpack/individuals files/walls_004.fbx using Guid(394aa58cfa57ed943a1c12998abf18de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '158b121259ab4cecfd3d88914bd09909') in 0.0222398 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/fbxdungeonassetpack/individuals files/potion_001.fbx
+  artifactKey: Guid(ebd2fbf795a3c5643b79907e63124c59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/fbxdungeonassetpack/individuals files/potion_001.fbx using Guid(ebd2fbf795a3c5643b79907e63124c59) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '93f4c11ad5a346a22ceac0650c2299b5') in 0.0252833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/fbxdungeonassetpack/individuals files/gems_001.fbx
+  artifactKey: Guid(8d075d2d4df3b004ba05566c024c3bb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/fbxdungeonassetpack/individuals files/gems_001.fbx using Guid(8d075d2d4df3b004ba05566c024c3bb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '643c7eaa9f8e3d444bfd5ba5de57605c') in 0.0179905 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/fbxdungeonassetpack/individuals files/irondoor.fbx
+  artifactKey: Guid(61b0281b10835cb4abbbc2438d3274bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/fbxdungeonassetpack/individuals files/irondoor.fbx using Guid(61b0281b10835cb4abbbc2438d3274bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '55a4ba8a5f7c6e0d3d26bf28de8ccfb7') in 0.0219376 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/fbxdungeonassetpack/individuals files/floor_002.fbx
+  artifactKey: Guid(002d4cf6210721744acbf469ada49dec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/fbxdungeonassetpack/individuals files/floor_002.fbx using Guid(002d4cf6210721744acbf469ada49dec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '44625afabeb3cb95f19da25fa8ed74db') in 0.0275205 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/fbxdungeonassetpack/individuals files/walls_003.fbx
+  artifactKey: Guid(752fd51d0e3ea284a8c0c8d2c31624e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/fbxdungeonassetpack/individuals files/walls_003.fbx using Guid(752fd51d0e3ea284a8c0c8d2c31624e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f8e6b9a9d1d33827b203e5dba1740da2') in 0.0251395 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/fbxdungeonassetpack/individuals files/gems_006.fbx
+  artifactKey: Guid(ff186309b495ba344a9a00d31f6cca17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/fbxdungeonassetpack/individuals files/gems_006.fbx using Guid(ff186309b495ba344a9a00d31f6cca17) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '863eec7d79d0b20836d1733e32a25264') in 0.0185695 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/fbxdungeonassetpack/individuals files/walls_007.fbx
+  artifactKey: Guid(7eeb0dbb24f6e12448e5cab5623cbdb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/fbxdungeonassetpack/individuals files/walls_007.fbx using Guid(7eeb0dbb24f6e12448e5cab5623cbdb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '100559329dca2117a891f5e8e947eb74') in 0.0433 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/fbxdungeonassetpack/individuals files/crest.fbx
+  artifactKey: Guid(c16177c1e4ca3e44c98289ac46d19990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/fbxdungeonassetpack/individuals files/crest.fbx using Guid(c16177c1e4ca3e44c98289ac46d19990) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7cee783a0b9d0daffed8c1f9e9f8497e') in 0.0315784 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/fbxdungeonassetpack/individuals files/rampflat_001.fbx
+  artifactKey: Guid(987cfdaebaecb6e4cb84be71460626e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/fbxdungeonassetpack/individuals files/rampflat_001.fbx using Guid(987cfdaebaecb6e4cb84be71460626e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e4aba9b9e9afcbf405b780f3b4be5d88') in 0.0245361 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/fbxdungeonassetpack/individuals files/gems_004.fbx
+  artifactKey: Guid(492959f625676144db84fdfc58e2bb13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/fbxdungeonassetpack/individuals files/gems_004.fbx using Guid(492959f625676144db84fdfc58e2bb13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5da83acf268bb79c6615d34b158b40dd') in 0.0191945 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.141381 seconds.
+  path: Assets/Settings/UniversalRP.asset
+  artifactKey: Guid(681886c5eb7344803b6206f758bf0b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/UniversalRP.asset using Guid(681886c5eb7344803b6206f758bf0b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '910a3316ce45b604f98c2ad003aa3cfb') in 0.0009005 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
