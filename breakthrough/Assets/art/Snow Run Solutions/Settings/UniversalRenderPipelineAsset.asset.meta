@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b6b1d2935f8d89f45929a0a293cab814
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 196122
+  packageName: 2D Portal Shader
+  packageVersion: 1.0
+  assetPath: Assets/Snow Run Solutions/Settings/UniversalRenderPipelineAsset.asset
+  uploadId: 435799

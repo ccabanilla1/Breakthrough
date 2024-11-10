@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 9c1c2aa27e3e4dd41be4c3e8d3ff863a
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 625f186215c104763be7675aa2d941aa, type: 3}
+AssetOrigin:
+  serializedVersion: 1
+  productId: 196122
+  packageName: 2D Portal Shader
+  packageVersion: 1.0
+  assetPath: Assets/Snow Run Solutions/Shaders/Twirl02.shadergraph
+  uploadId: 435799

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: eaf1e294126692a4ea8850fddd4b85b8
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 196122
+  packageName: 2D Portal Shader
+  packageVersion: 1.0
+  assetPath: Assets/Snow Run Solutions/Materials/Portal03.mat
+  uploadId: 435799
