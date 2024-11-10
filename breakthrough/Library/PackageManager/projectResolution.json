@@ -87,6 +87,14 @@
       "version": "2.0.22",
       "source": "registry"
     },
+    "com.unity.ide.vscode@1.2.3": {
+      "name": "com.unity.ide.vscode",
+      "resolvedPath": "C:\\Users\\Chantelle\\Documents\\Github\\breakthrough\\breakthrough\\Library\\PackageCache\\com.unity.ide.vscode",
+      "fingerprint": "2d531209967f3faf1e5cc4a737631f87ddcefc31",
+      "editorCompatibility": "2019.2.0a12",
+      "version": "1.2.3",
+      "source": "registry"
+    },
     "com.unity.inputsystem@1.11.2": {
       "name": "com.unity.inputsystem",
       "resolvedPath": "C:\\Users\\Chantelle\\Documents\\Github\\breakthrough\\breakthrough\\Library\\PackageCache\\com.unity.inputsystem",
