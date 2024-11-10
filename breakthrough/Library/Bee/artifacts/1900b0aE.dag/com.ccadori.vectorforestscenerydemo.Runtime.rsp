@@ -387,9 +387,9 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.0.26f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.0.26f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.0.26f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
-"Assets/ccadori/Vector Forest Scenery/Demo/Runtime/AdditionButton.cs"
-"Assets/ccadori/Vector Forest Scenery/Demo/Runtime/Demo.cs"
-"Assets/ccadori/Vector Forest Scenery/Demo/Runtime/InteractionButton.cs"
+"Assets/art/ccadori/Vector Forest Scenery/Demo/Runtime/AdditionButton.cs"
+"Assets/art/ccadori/Vector Forest Scenery/Demo/Runtime/Demo.cs"
+"Assets/art/ccadori/Vector Forest Scenery/Demo/Runtime/InteractionButton.cs"
 -langversion:9.0
 /deterministic
 /optimize+
