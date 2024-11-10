@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 42829697436fa5c46a87daf00d523a68
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 205038
+  packageName: 2D Gothic Dungeon
+  packageVersion: 1.0
+  assetPath: Assets/PotionJunkies/2DGothicDungeon/Prefab/Walls/backwall_catacomb_3_empty.prefab
+  uploadId: 457870

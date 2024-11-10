@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: e88c906bec3bfa34bb3bdcd88ed53b3c
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 205038
+  packageName: 2D Gothic Dungeon
+  packageVersion: 1.0
+  assetPath: Assets/PotionJunkies/2DGothicDungeon/Prefab/Walls/backwall_hole.prefab
+  uploadId: 457870

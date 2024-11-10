@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: cc42fb35e43a038448809f9882e048d4
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 205038
+  packageName: 2D Gothic Dungeon
+  packageVersion: 1.0
+  assetPath: Assets/PotionJunkies/2DGothicDungeon/Prefab/Decorations/StonePillar
+    - Vines.prefab
+  uploadId: 457870

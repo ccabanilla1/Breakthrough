@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 1fee58deb1c4a6d408f2d28403640822
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 205038
+  packageName: 2D Gothic Dungeon
+  packageVersion: 1.0
+  assetPath: Assets/PotionJunkies/2DGothicDungeon/Prefab/Walls/backwall_doorway_door.prefab
+  uploadId: 457870

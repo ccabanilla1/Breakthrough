@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 9e96c3193b693a0449f71d6a90f0f911
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 205038
+  packageName: 2D Gothic Dungeon
+  packageVersion: 1.0
+  assetPath: Assets/PotionJunkies/2DGothicDungeon/Prefab/Walls/CeilingTile_Mid2.prefab
+  uploadId: 457870

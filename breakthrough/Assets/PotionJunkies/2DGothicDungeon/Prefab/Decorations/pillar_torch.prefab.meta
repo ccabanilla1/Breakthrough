@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: d3ef9e8f49ab7244a9d2d722bd029147
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 205038
+  packageName: 2D Gothic Dungeon
+  packageVersion: 1.0
+  assetPath: Assets/PotionJunkies/2DGothicDungeon/Prefab/Decorations/pillar_torch.prefab
+  uploadId: 457870
